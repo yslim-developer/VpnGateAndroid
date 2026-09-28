@@ -1,3 +1,14 @@
+VPN Gate Personal for Android
+=============================
+
+This personal Android app lists volunteer [VPN Gate](https://www.vpngate.net/en/) servers and connects through the OpenVPN engine included in this APK. The VPN Gate tab offers country filtering, server statistics, a privacy notice, and one-tap connection. VPN Gate and individual server operators may retain connection and packet-header logs; read the [VPN Gate logging policy](https://www.vpngate.net/en/about_abuse.aspx) before connecting.
+
+The app is based on [OpenVPN for Android](https://github.com/schwabe/ics-openvpn) by Arne Schwabe. Its GPL license, original notices, and third-party licenses remain in this repository. The OpenVPN for Android documentation follows below.
+
+GitHub Actions runs the VPN Gate tests and builds a **debug-signed** universal APK. Download `vpngate-android-debug-apk` from the latest successful **Build VPN Gate APK** workflow run. Android 6.0 (API 23) or newer is required. The debug APK is for personal installation; it is not a signed release build. No account or own VPN server is required.
+
+For local builds, install JDK 17, Android SDK Platform 37, NDK `30.0.14904198`, CMake, and SWIG. Then run `./gradlew :main:assembleUiOvpn23Debug` on macOS/Linux or `gradlew.bat :main:assembleUiOvpn23Debug` on Windows. The universal APK appears under `main/build/outputs/apk/uiOvpn23/debug/`.
+
 OpenVPN for Android
 =============
 ![build status](https://github.com/schwabe/ics-openvpn/actions/workflows/build.yaml/badge.svg)

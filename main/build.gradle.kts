@@ -33,6 +33,7 @@ android {
     ndkVersion = "30.0.14904198"
 
     defaultConfig {
+        applicationId = "com.yslim.vpngatepersonal"
         minSdk = 23
         targetSdk = 37
         //targetSdkPreview = "UpsideDownCake"

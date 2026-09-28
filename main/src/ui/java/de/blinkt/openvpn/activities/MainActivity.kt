@@ -43,6 +43,7 @@ class MainActivity : BaseActivity() {
         }
         if (!minimalUi) {
 
+            mPagerAdapter.addTab(R.string.vpngate_tab, VpnGateFragment::class.java)
             mPagerAdapter.addTab(R.string.vpn_list_title, VPNProfileList::class.java)
             mPagerAdapter.addTab(R.string.graph, GraphFragment::class.java)
             mPagerAdapter.addTab(R.string.generalsettings, GeneralSettings::class.java)

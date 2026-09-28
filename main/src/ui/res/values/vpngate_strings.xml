@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vpngate_tab">VPN Gate</string>
+    <string name="vpngate_intro">Public VPN Gate servers are run by volunteers. Choose a server you trust.</string>
+    <string name="vpngate_refresh">Refresh servers</string>
+    <string name="vpngate_country">Server country</string>
+    <string name="vpngate_outside_korea">Outside Korea</string>
+    <string name="vpngate_all_countries">All countries</string>
+    <string name="vpngate_loading">Loading servers…</string>
+    <string name="vpngate_updated">Updated: %1$s (%2$d servers)</string>
+    <string name="vpngate_cached">Cached list from %1$s (%2$d servers)</string>
+    <string name="vpngate_load_error">Could not load server list: %1$s</string>
+    <string name="vpngate_disconnected">VPN disconnected</string>
+    <string name="vpngate_connected">VPN active</string>
+    <string name="vpngate_disconnect">Disconnect VPN</string>
+    <string name="vpngate_server_detail">%1$s · %2$d ms · %3$.1f Mbps · %4$d sessions · logs: %5$s</string>
+    <string name="vpngate_warning_title">Public server privacy</string>
+    <string name="vpngate_warning">VPN Gate records connection information and volunteer servers may keep packet header logs. The server operator can see traffic metadata. Continue only if you accept this.</string>
+    <string name="vpngate_policy">Read policy</string>
+    <string name="vpngate_connect">Connect</string>
+    <string name="vpngate_profile_error">This server configuration cannot be used: %1$s</string>
+</resources>
